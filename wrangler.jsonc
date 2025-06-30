@@ -9,7 +9,14 @@
 	"compatibility_date": "2025-06-28",
 	"observability": {
 		"enabled": true
-	}
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "resume-db",
+			"database_id": "058ae95f-6898-4c5f-b6e7-d6573e5cde04"
+		}
+	]
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
